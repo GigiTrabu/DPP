@@ -14,7 +14,7 @@
 
 # MAYBE
 
-- [ ] TODO[M0] modifica per avere grafo algoritmo numero 3 corretto
+- [X] TODO[M0] modifica per avere grafo algoritmo numero 3 corretto
 
 
 
