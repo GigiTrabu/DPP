@@ -1,0 +1,129 @@
+# Graph Anonymization & Attack Robustness Framework
+
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+Framework sperimentale per l'anonimizzazione di reti sociali complesse e la valutazione della loro robustezza contro attacchi di *Link Disclosure*. Il progetto implementa algoritmi di clustering k-anonimi e modelli di attacco probabilistici per analizzare il trade-off tra **Privacy Preservation** (Protezione della Privacy) e **Data Utility** (Utilità del Dato).
+
+---
+
+## 📑 Sommario
+1. [Introduzione Teorica](#introduzione-teorica)
+2. [Architettura del Sistema](#architettura-del-sistema)
+3. [Algoritmi di Anonimizzazione](#algoritmi-di-anonimizzazione)
+4. [Modelli di Attacco](#modelli-di-attacco)
+5. [Analisi della Complessità](#analisi-della-complessità)
+6. [Installazione e Utilizzo](#installazione-e-utilizzo)
+7. [Descrizione degli Output](#descrizione-degli-output)
+
+---
+
+## 🧠 Introduzione Teorica
+
+Il framework affronta il problema dell'anonimizzazione dei grafi attraverso la **k-anonymity** strutturale. Il processo si articola in tre fasi critiche:
+1.  **Node Clustering**: Raggruppamento di $N$ nodi in cluster di dimensione minima $k$.
+2.  **Structural Transformation**: Collassamento degli archi originali in macro-archi tra cluster (Super-nodes).
+3.  **Privacy/Utility Balancing**: Valutazione della capacità di resistere a inferenze sui legami originali pur mantenendo l'omofilia del grafo.
+
+
+
+---
+
+## 🏗 Architettura del Sistema
+
+Il software è progettato in modo modulare per consentire la comparazione incrementale e scalabile delle tecniche:
+
+### 📁 `src/` (Moduli Principali)
+* **`anonymizerNodes.py`**: Gestisce la partizione dei nodi.
+    * `Greedy Clustering`: Ottimizza il raggruppamento minimizzando la distanza tra attributi sensibili (Amicizie, Classi, Gruppi).
+    * `Random Clustering`: Fornisce un termine di paragone per valutare l'efficacia del metodo Greedy.
+* **`anonymizerEdges.py`**: Gestisce la sintesi dei legami.
+    * `Baseline`: Implementa la rimozione degli archi sensibili inter-gruppo.
+    * `_collapse_graph`: Algoritmo di sintesi strutturale. Supporta la modalità **Constrained** (forza la densità archi a $k^2$ o $0$) per prevenire attacchi basati sulla densità specifica.
+* **`attacker.py`**: Motore inferenziale dell'attaccante.
+    * `Noisy-OR Model`: Modello probabilistico per stimare l'esistenza di un link $e_{u,v}$ basandosi sul macro-grafo anonimo.
+* **`complexity_analysis.py`**: Profiler dedicato all'analisi della scalabilità computazionale.
+
+### 📁 `data/`
+* `grafo_cache.gpickle`: Grafo reale di input con attributi gerarchici.
+* `node_mapping.pickle`: File di mappatura anonima (Segreto del sistema).
+
+---
+
+## 🛠 Algoritmi di Anonimizzazione
+
+| Tecnica | Tipologia | Complessità | Obiettivo Primario |
+| :--- | :--- | :--- | :--- |
+| **Baseline** | Link Removal | $O(E)$ | Privacy minima (rimozione archi inter-gruppo). |
+| **Partial** | Link Removal | $O(E)$ | Riduzione del segnale tramite rimozione random. |
+| **Random Unc/Cons** | Clustering | $O(N)$ | k-anonymity di base senza omofilia. |
+| **Greedy Unc.** | Clustering | $O(N \log N)$ | Preservazione massima dell'utilità del dato. |
+| **Greedy Cons.** | Clustering | $O(N^2)$ | Massima protezione contro attacchi strutturali. |
+
+---
+
+## ⚡ Modelli di Attacco
+
+Il framework valuta la sicurezza attraverso vettori di attacco a complessità crescente:
+
+1.  **Global Density Attack**: Attacco statistico basato sulla densità media del grafo ($O(N)$).
+2.  **Noisy-OR Attack**: Attacco probabilistico mirato che sfrutta la conoscenza del clustering ($O(N^2)$).
+3.  **Blind Mapping Attack**: Scenario in cui il mapping nodi-cluster è ignoto. Dimostra l'impraticabilità combinatoria della de-anonimizzazione senza chiavi d'accesso ($O(N^3)$ o superiore).
+
+---
+
+## 📈 Analisi della Complessità
+
+Il framework include un'analisi di scalabilità fino a **10.000 nodi**, confrontando il costo della difesa con lo sforzo dell'attacco.
+
+
+
+### Risultati del Benchmark:
+* **Difesa**: La complessità è **incrementale**. Ogni tecnica poggia sulla **Baseline** obbligatoria. Il metodo **Greedy Constrained** mostra una crescita quadratica necessaria per la validazione della densità tra ogni coppia di cluster.
+* **Attacco**: Il modello dimostra che un attacco preciso (Noisy-OR) è intrinsecamente più oneroso della difesa, creando un vantaggio computazionale per il difensore.
+
+---
+
+## 🚀 Installazione e Utilizzo
+
+1.  **Clona il repository**:
+    ```bash
+    git clone [https://github.com/tuo-username/graph-anonymization.git](https://github.com/tuo-username/graph-anonymization.git)
+    cd graph-anonymization
+    ```
+2.  **Installa le dipendenze**:
+    ```bash
+    pip install networkx numpy matplotlib scipy
+    ```
+3.  **Esegui i test di robustezza e precisione**:
+    ```bash
+    python3 src/run_attack.py
+    ```
+4.  **Genera l'analisi della complessità teorica e reale**:
+    ```bash
+    python3 src/complexity_analysis.py
+    ```
+
+---
+
+## 🖼️ Descrizione degli Output (`/output`)
+
+* **`greedy_disclosure_k2_k6.png`**: Numero di archi reali scoperti. Evidenzia la superiorità del clustering Greedy rispetto alla Baseline.
+* **`complexity_defense_attack_pure.png`**: Grafico duale che valida le classi Big O. Il pannello sinistra mostra la gerarchia delle difese; il pannello destra lo sforzo degli attacchi.
+* **`incremental_complexity.png`**: Visualizzazione del costo cumulativo, dove la Baseline costituisce la "fondamenta" temporale per ogni tecnica successiva.
+
+
+
+---
+
+## 📋 Note Metodologiche: Digital Twin
+Per garantire la fedeltà dei test, il sistema utilizza un generatore di grafi sintetici che clona la struttura del grafo originale, rispettando le probabilità di connessione gerarchiche:
+* **Amicizie (Globali)**: ~5% densità.
+* **Gruppi (Locali)**: ~20% densità.
+* **Classi (Cluster Densi)**: ~60% densità.
+
+Questa configurazione assicura che il framework sia testato su topologie di rete realistiche, validando l'efficacia dell'anonimizzazione in contesti sociali verosimili.
+
+---
+**Autore**: Luigi  
+**Corso**: Data Privacy & Protection (DPP)

@@ -1,0 +1,1111 @@
+[
+      
+    {
+      "cognome": "Alberti",
+      "scuola": "Liceo",
+      "cds": "Altro",
+      "fsd": "Non fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "",
+      "anonimo": "Si"
+    },
+
+    { 
+      "cognome": "Alessandria",
+      "scuola": "",
+      "cds": "", 
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No" 
+    },
+
+    { 
+      "cognome": "Alice",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No" 
+    }, 
+
+    {
+      "cognome": "Aliotta",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Dal Seno, Vicale E, Andreani, Nae",
+      "anonimo": "No"
+    },
+    
+    {
+      "cognome": "Asslaoui",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Bafico",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "No IT",
+      "compagni": "Cafferata, Trabucco, Noce",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Bajano",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "Marenco, Ferretti, Barbagelata, Fincato, Improta",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Barabino",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Barbagelata",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Auto",
+      "madrelingua": "IT",
+      "compagni": "Improta, Fincato, Ferretti, Bajano, Cordano",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Barca",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Cafferata, Trabucco, Necordi, Campantico, Cerra",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Barletta",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "Scaffai, Spinella, Vaccarecci, Sacco, Garaccioni",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Barrago",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Beardo",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Calvi, Necordi, Cappelli, Bestoso, Dellepiane",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Bernadello",
+      "scuola":"",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Bestoso",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Biberia",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+    
+    {
+      "cognome": "Bonaveri",
+      "scuola": "Liceo",
+      "cds": "Tecnologico",
+      "fsd": "fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Bonelli",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Fotsing, Asslaoui",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Bordo",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+    
+    {
+      "cognome": "Bricola",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Cafferata",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Trabucco, Necordi, Campantico, Cerra, Barca",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Calandra",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": ""
+    },
+
+  
+    {
+      "cognome": "Calvi",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Beardo,Necordi",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Cappelli",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": ""
+    },
+
+    {
+      "cognome": "Campantico",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "Cerra, Trabucco, Cafferata, Barca, Necordi",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Carbonetto",
+      "scuola": "Liceo",
+      "cds": "Altro",
+      "fsd": "fuorisede",
+      "mezzo": "Moto/scooter ",
+      "madrelingua": "IT",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Cerra",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "Cafferata, Necordi, Barca, Trabucco, Campantico",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Chen",
+      "scuola": "Istituto tecnico",
+      "cds": "Ing. informatica",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "No IT",
+      "compagni": "Barabino, Mazza, Seves",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Cordano",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Coriale",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "Alessandria, Rissolio, Necordi, Cafferata",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Costagliola",
+      "scuola": "Liceo",
+      "cds": "Tecnologico",
+      "fsd": "fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Cruz",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "No IT",
+      "compagni": "Tomala, Innocenti, Noce, Moretti, Guillen",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Dal Seno",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Dellepiane",
+      "scuola": "Liceo",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Nocco, Bestoso, Cappelli, Beardo, Perricone",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Deidda",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "De Vecchi",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Fasoli",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo":"Moto/scooter",
+      "madrelingua":"IT",
+      "compagni":"Venturini, Calandra, Herrera, Roncallo",
+      "anonimo":"No"
+    },
+
+    {
+      "cognome": "Ferrari",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "Levrero, Pareto, Luxardo",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Ferraro",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Ferretti",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Fincato",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Fiocchi",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Vierin, Frattini, Costagliola, Alice",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Fotsing",
+      "scuola": "Estero",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "No IT",
+      "compagni": "",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Frattini",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Gamonal",
+      "scuola": "Liceo",
+      "cds": "Ing. informatica",
+      "fsd": "Non fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "No IT",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Garaccioni",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Gotelli",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Gramaglia",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Grosso",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Guillen",
+      "scuola": "Liceo",
+      "cds": "Tecnologico",
+      "fsd": "fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "Moretti, Cruz, Tomala, Noce, Roda",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Herrera",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Improta",
+      "scuola": "Liceo",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "Barbagelata, Fincato, Cordano, Nae, Grosso",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Ingrassa",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Innocenti",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Noce, Tomala, Cruz, Necordi, Improta",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Luxardo",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "Levrero, Pareto, Ferrari, Deidda, Mammoliti",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Magliocco",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Marenco",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Bajano, Ferretti, Ingrassa",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Mazza",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Mekki",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "No IT",
+      "compagni": "",
+      "anonimo": "Si"
+    },
+    
+    {
+      "cognome": "Micali",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Micieli",
+      "scuola": "Liceo",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "Mammoliti, Pedullà, Deidda, Ferrari, Pareto",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Minerba",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "Vassallo, Teleaga, Passalacqua",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Monchiero",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Ingrassia, Gotelli, Bernadello, Ricciardi, Xia",
+      "anonimo": "No"
+    }, 
+
+    {
+      "cognome": "Moretti",
+      "scuola": "Liceo",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Noce, Tomala, Guillen, Cruz, Cafferata",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Muceku",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Nae",
+      "scuola": "Liceo",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Piedi",
+      "madrelingua": "No IT",
+      "compagni": "Andreani, Improta",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Nasso",
+      "scuola": "Liceo",
+      "cds": "Ing. informatica",
+      "fsd": "Non fuorisede",
+      "mezzo": "Auto",
+      "madrelingua": "IT",
+      "compagni": "Rizzo, Bordo, De vecchi, Repetto",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Necordi",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Innocenti, Cafferata, Calvi, Beardo, Cerra",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Nicolosi",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "Ferraro, Termine, Ulivi, Rizzuti",
+      "anonimo": "Si" 
+    },
+
+    {
+      "cognome": "Nocco",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Auto",
+      "madrelingua": "IT",
+      "compagni": "Perricone, Dellepiane, Bestoso, Calvi, Zoratti",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Noce",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Auto",
+      "madrelingua": "IT",
+      "compagni": "Innocenti, Moretti, Tomala, Cruz, Necordi",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Panchabalasingham",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Pareto",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Passalacqua",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Pedullà",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Perricone",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Nocco, Zoratti, Bestoso, Calvi, Beardo",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Ravera",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Rebaudo",
+      "scuola": "Istituto professionale",
+      "cds": "Tecnologico",
+      "fsd": "fuorisede",
+      "mezzo": "Piedi",
+      "madrelingua": "IT",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Ricciardi",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Rissolio",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "Micali, Baldoni, Coriale, Alessandria, Magliocco",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Rizzo",
+      "scuola": "Istituto tecnico",
+      "cds": "Ing. informatica",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "De Vecchi, Nasso, Repetto, Ravera, Bricola",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Rizzuti",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Roncallo",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Sacco",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Sahraoui",
+      "scuola": "Altro",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Scaffai",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Barletta, Spinella, Vaccarecci, Sacco, Garaccioni",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Seves",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Spinella",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Barletta, Sacco, Scaffai, Barrago, Vaccarecci",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Teleaga",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "Passalacqua, Gramaglia, Magliocco, Vassallo, Venturini",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Termine",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Tomala",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Auto",
+      "madrelingua": "IT",
+      "compagni": "Cruz, Moretti, Guillen, Noce, Innocenti",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Trabucco",
+      "scuola": "Liceo",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Cafferata, Necordi, Campantico, Cerra, Barca",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Ulivi",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Vaccarecci",
+      "scuola": "Istituto tecnico",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Treno",
+      "madrelingua": "IT",
+      "compagni": "Scaffai, Sacco, Barletta, Spinella, Barrago",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Vassallo",
+      "scuola": "Istituto professionale",
+      "cds": "Tecnologico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "Muceku, Biberia, Lange, Passalacqua, Venturini, Panchabalasingham",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Venturini",
+      "scuola": "Istituto tecnico",
+      "cds": "Tecnologico",
+      "fsd": "fuorisede",
+      "mezzo": "Moto/scooter",
+      "madrelingua": "IT",
+      "compagni": "Passalacqua, Muceku, Lange, Panchabalasingham, Vassallo",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Vicale",
+      "scuola": "Istituto professionale",
+      "cds": "Propedeutico",
+      "fsd": "Non fuorisede",
+      "mezzo": "Bus",
+      "madrelingua": "IT",
+      "compagni": "",
+      "anonimo": "Si"
+    },
+
+    {
+      "cognome": "Vierin",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+
+
+    {
+      "cognome": "Xia",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    },
+
+    {
+      "cognome": "Zoratti",
+      "scuola": "",
+      "cds": "",
+      "fsd": "",
+      "mezzo": "",
+      "madrelingua": "",
+      "compagni": "",
+      "anonimo": "No"
+    }    
+
+]
+
+    
+
+
+  
