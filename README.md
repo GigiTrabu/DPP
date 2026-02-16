@@ -22,7 +22,22 @@ The software architecture reflects the **Privacy vs. Utility** trade-off analyze
 
 ---
 
-## 📂 Module Architecture & Implementation
+## 📂 Data Creation and Management (`/data`)
+
+The project includes a structured data pipeline to handle graph generation, storage, and anonymization mapping. All data assets are managed within the `/data` directory:
+
+* **Initial Data Source (`.json`)**: The process begins with raw JSON files containing node attributes and edge lists. These files represent the ground-truth social network before any privacy-preservation techniques are applied.
+* **Graph Storage (`.gpickle`)**: 
+    * **Reference Graphs**: The raw JSON data is processed into NetworkX graphs and stored as `.gpickle` files for high-performance loading during experiments.
+    * **Anonymized Graphs**: Once a defense strategy (e.g., Greedy Clustering) is applied, the resulting "Super-node" graphs are cached as gpickles to allow for consistent evaluation across different attack models.
+* **Node Mapping (`node_mapping.pickle`)**: This is a critical security file generated during the clustering phase. It stores the correspondence between original node IDs and their respective cluster IDs. As noted in the theoretical analysis, protecting this mapping is essential to maintaining the privacy of the participants.
+* **Graph Generation Logic**: 
+    * The `data/transform_data_noiseOR.py` script contains the core logic for converting raw JSON with only the specific of the node into another JSON file with the attribute specified in the paper for the generation fo all the types of edges.
+    * After the creation of the correlation between nodes, the real creation of the multigraph is responsibility of the `src/loader.py` file that convert our generated json into a utilizable graph.
+
+---
+
+## 📂 Architecture & Implementation
 
 ### 1. Defense: Anonymization Strategies (`src/`)
 
